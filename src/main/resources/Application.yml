@@ -1,0 +1,12 @@
+spring:
+    mail:
+        host: smtp.gmail.com
+        password: 
+        port: 465
+        properties:
+            mail:
+                smtp:
+                    auth: true
+                    starttls:
+                        enable: true
+        username: DCOEMailServer@gmail.com
